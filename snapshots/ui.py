@@ -179,6 +179,7 @@ class Sync(QtWidgets.QDialog):
 
         self.setWindowTitle('Sync Folders')
         self.setWindowIcon(QtGui.QIcon(resources.get('sync.png')))
+        self.setMinimumWidth(320)
         self.set_state('options')
 
     def on_event(self, event):
