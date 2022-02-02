@@ -1,0 +1,9 @@
+name: snapshots
+version: 0.1.0
+description: 'Take snapshots, diff, and sync folders!'
+author: Dan Bradham
+email: danielbradham@gmail.com
+requires: []
+environment:
+  PYTHONPATH:
+    - $MODULE
